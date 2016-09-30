@@ -1,0 +1,7 @@
+baseurl = "https://chrishildebrand.net/"
+languageCode = "en-us"
+
+editor = "emacsclient"
+
+[taxonomies]
+tag = "tags"

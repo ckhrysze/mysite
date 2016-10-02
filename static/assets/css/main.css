@@ -1571,8 +1571,8 @@ body.is-loading *, body.is-loading *:after, body.is-loading *:before {
 					    }
 
 input, textarea, select {
-    font-size: 15pt;
-    line-height: 1.85em;
+    font-size: 12pt;
+    line-height: 1.35em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
 }
@@ -1871,6 +1871,10 @@ ol.default li {
 
 /* Form */
 
+.btn {
+    width: 20%;
+}
+
 form label {
     display: block;
     font-weight: 400;
@@ -1890,7 +1894,7 @@ form textarea {
     width: 100%;
     border-radius: 0.5em;
     border: solid 1px #E5E5E5;
-    padding: 1em;
+
     -moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
     -webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
     -ms-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -1910,11 +1914,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="password"],
 form select {
-    line-height: 1em;
-}
-
-form textarea {
-    min-height: 9em;
+    line-height: 0.5em;
 }
 
 form .formerize-placeholder {
@@ -2081,6 +2081,12 @@ header .icon.circled {
 }
 
 /* Wrapper */
+
+.form-wrapper {
+    background: #fff;
+    margin: 0 0 0 0;
+    padding: 2em 1em 2em 1em;
+}
 
 .wrapper {
     background: #fff;
@@ -2536,25 +2542,9 @@ body.homepage.is-loading #header:after {
     /* Basic */
 
     body, input, textarea, select {
-	font-size: 14pt;
-	line-height: 1.75em;
+	font-size: 12pt;
+	line-height: 1em;
     }
-
-    /* Carousel */
-
-    .carousel {
-	padding: 1.5em 0 1.5em 0;
-    }
-
-    .carousel .reel {
-	padding: 0 1.5em 0 1.5em;
-    }
-
-    .carousel article {
-	width: 18em;
-	margin: 0 1.25em 0 0;
-    }
-
 }
 
 /* Normal */
@@ -2565,7 +2555,7 @@ body.homepage.is-loading #header:after {
 
     body, input, textarea, select {
 	font-size: 12pt;
-	line-height: 1.5em;
+	line-height: 1em;
     }
 
     /* Wrapper */
@@ -2630,17 +2620,6 @@ body.homepage.is-loading #header:after {
 	padding: 4em 2em 4em 2em;
     }
 
-    /* Carousel */
-
-    .carousel {
-	padding: 1.25em 0 1.25em 0;
-    }
-
-    .carousel article {
-	width: 18em;
-	margin: 0 1em 0 0;
-    }
-
 }
 
 /* Mobile */
@@ -2659,7 +2638,7 @@ body.homepage.is-loading #header:after {
 
     body, input, textarea, select {
 	font-size: 12.5pt;
-	line-height: 1.5em;
+	line-height: 1em;
     }
 
     h2 {
@@ -3010,25 +2989,4 @@ body.homepage.is-loading #header:after {
 	padding-left: 1em;
 	padding-right: 1em;
     }
-
-    /* Carousel */
-
-    .carousel {
-	padding: 0.5em 0 0.5em 0;
-    }
-
-    .carousel .reel {
-	padding: 0 0.5em 0 0.5em;
-    }
-
-    .carousel article {
-	width: 14em;
-	padding-bottom: 2em;
-	margin: 0 0.5em 0 0;
-    }
-
-    .carousel article .image {
-	margin-bottom: 2em;
-    }
-
 }

@@ -1,0 +1,13 @@
+<!-- Sidebar -->
+<div class="4u 12u(mobile)" id="sidebar">
+  <section>
+    Content Tags
+    <ul id="tags">
+      {{ range $name, $items := .Site.Taxonomies.tags }}
+      <li>
+	<a href="/tags/{{ $name }}/">{{ $name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>

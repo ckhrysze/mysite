@@ -1,7 +1,8 @@
 baseurl = "https://chrishildebrand.net/"
+title = "Page of Chris Hildebrand"
 languageCode = "en-us"
 
-editor = "emacsclient"
+newContentEditor = "emacsclient -n"
 
 [taxonomies]
 tag = "tags"

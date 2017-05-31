@@ -3,30 +3,32 @@
 <html>
   <head>
     {{ partial "header.html" }}
+    <meta name="description" content="{{ .Description }}">
+    <meta name="keywords" content="{{ delimit .Keywords ", "}}">
   </head>
   <body class="right-sidebar">
     <div id="page-wrapper">
 
       <div id="header">
-	<div class="inner">
-	  <header><h1><a href="index.html" id="logo">{{ .Title }}</a></h1></header>
-	</div>
+        <div class="inner">
+          <header><h1><a href="index.html" id="logo">{{ .Title }}</a></h1></header>
+        </div>
 
-	{{ partial "top_nav.html" }}
+        {{ partial "top_nav.html" }}
       </div>
 
       <div class="wrapper style1">
-	<div class="container">
-	  <div class="row 200%">
-	    <div class="8u 12u(mobile)" id="content">
-	      <article id="main">
-		{{ .Content }}		
-	      </article>
-	    </div>
+        <div class="container">
+          <div class="row 200%">
+            <div class="8u 12u(mobile)" id="content">
+              <article id="main">
+                {{ .Content }}
+              </article>
+            </div>
 
-	    {{ partial "blog/sidebar.html" . }}
-	  </div>
-	</div>
+            {{ partial "blog/sidebar.html" . }}
+          </div>
+        </div>
       </div>
 
       {{ partial "footer.html" }}

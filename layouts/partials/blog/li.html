@@ -3,7 +3,7 @@
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     <h6>{{ dateFormat "2006-01-02" .Date }}</h6>
   </header>
-  {{ .Summary }}
-  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  {{ .Description }}
+  &nbsp;&nbsp;
   <a href="{{ .RelPermalink }}">...continued</a>
 </section>

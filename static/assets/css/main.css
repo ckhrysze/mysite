@@ -88,6 +88,15 @@ html, body {
     text-decoration: underline;
 }
 
+.code-list {
+    list-style: none;
+    font-family: monospace;
+}
+.code-list li:before {
+    content: '> ';
+    margin-left: -1em;
+}
+
 /* Containers */
 
 .container {

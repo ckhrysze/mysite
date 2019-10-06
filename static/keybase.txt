@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/ckhrysze
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chrishildebrand.net
+  * I am ckhrysze (https://keybase.io/ckhrysze) on keybase.
+  * I have a public key ASBh754JhkMUDbwSpEzjL0IPDnUZJvPp2rwiB6pCQpUm9Qo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010122f837f7164291e2e2e928514238499e05ee41faa779cc5c909edbb9060af3ba0a",
+            "host": "keybase.io",
+            "kid": "012061ef9e098643140dbc12a44ce32f420f0e751926f3e9dabc2207aa42429526f50a",
+            "uid": "f82c68d08ba282769802b013eb149f19",
+            "username": "ckhrysze"
+        },
+        "service": {
+            "hostname": "chrishildebrand.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1478734919,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1478734820,
+        "hash": "532bae8daec9846d9eab0a0c174b5456146f98f5c03688958354054835ef1ed013e6fce8acf795ff011208f0e33be7a2d062026ed2f3d6f5ba4cf4900bf60713",
+        "seqno": 706163
+    },
+    "prev": "f10e6b11d3687edc832d9e2ef0325537afe375e0708c4fc74cfcc7f34b4d93f9",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYe+eCYZDFA28EqRM4y9CDw51GSbz6dq8IgeqQkKVJvUKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMjJmODM3ZjcxNjQyOTFlMmUyZTkyODUxNDIzODQ5OWUwNWVlNDFmYWE3NzljYzVjOTA5ZWRiYjkwNjBhZjNiYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjFlZjllMDk4NjQzMTQwZGJjMTJhNDRjZTMyZjQyMGYwZTc1MTkyNmYzZTlkYWJjMjIwN2FhNDI0Mjk1MjZmNTBhIiwidWlkIjoiZjgyYzY4ZDA4YmEyODI3Njk4MDJiMDEzZWIxNDlmMTkiLCJ1c2VybmFtZSI6ImNraHJ5c3plIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJjaHJpc2hpbGRlYnJhbmQubmV0IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0Nzg3MzQ5MTksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3ODczNDgyMCwiaGFzaCI6IjUzMmJhZThkYWVjOTg0NmQ5ZWFiMGEwYzE3NGI1NDU2MTQ2Zjk4ZjVjMDM2ODg5NTgzNTQwNTQ4MzVlZjFlZDAxM2U2ZmNlOGFjZjc5NWZmMDExMjA4ZjBlMzNiZTdhMmQwNjIwMjZlZDJmM2Q2ZjViYTRjZjQ5MDBiZjYwNzEzIiwic2Vxbm8iOjcwNjE2M30sInByZXYiOiJmMTBlNmIxMWQzNjg3ZWRjODMyZDllMmVmMDMyNTUzN2FmZTM3NWUwNzA4YzRmYzc0Y2ZjYzdmMzRiNGQ5M2Y5Iiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA8nYDKxdnNI2ou6StmDMoGF7ki1k04AVhBZQ2Yw34l3RPiUNqrHOoi4JIzVtymc0vFqrcVfaoxAI5DXnK+qQlBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILXd0z8bl0FH6KDYIx4e20nHg2fcLEEqffG87K8c8gV/o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ckhrysze
+
+==================================================================
